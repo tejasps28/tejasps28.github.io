@@ -135,26 +135,24 @@
   <main class="container">
     <div class="content">
 
-      <h3 class="page-title">Simulation of ROS2-Based Gantry Robot arm for car painting application.</h3>
+      <h3 class="page-title">Drawing of shapes using Turtlesim.</h3>
 
       <div class="posts">
         <div class="post">
           <div class="post-content">
 
-            <p> This project is a Gazebo simulation implementation of a
+            <!-- <p> This project is a Gazebo simulation implementation of a
               <i> ROS2-Based Gantry For Car Painting</i> under the mentorship of <a
                 href="https://www.linkedin.com/in/lentinjoseph/">Mr. Lentin Joseph.</a>
-            </p>
-            <p>We have explored how to automate the car painting process using a gantry design and robot arm manipulator.
-              Firstly, we set up a multi-camera system to surround the car , to cover maxiumum angles of the car.
-              The purpose of this is, to get a 3D reconstructed version of the car, in only pointcloud format.
-              We use this pointclouds to then create an octomap, for the arm to avoid collision with the car,
-              while painting. Using the images from the camera, we segment out the parts that are to be painted.
-              Then using openCV and PCL libraries, we compute the pose from points that are overlapping on the segmented
-              image, and it's corresponding depth from the pointcloud. Using moveit2 ROS api, we use these poses to
-              compute Cartesian motion plan.           </p>
+            </p> -->
+            <p>This repository contains the turtle_shapes ROS package, which is part of the TurtleBot projects. This package enables
+               the Turtlesim turtle to draw various shapes such as triangles, squares, circles, and rectangles.
+               The turtle_shapes package is designed to run with the turtlesim platform, using ROS (Robot Operating System) to control the turtle's movements to create shapes. 
+               This is an educational project that demonstrates the basics of ROS topics and service handling.
 
-            <p><strong>Keywords: </strong><i>Robotics, Computer Vision, Motion Planning.</i></p>
+            </p>
+
+            <p><strong>Keywords: </strong><i>Robotics, ROS, C++.</i></p>
 
           </div>
         </div>
@@ -163,9 +161,12 @@
         <p>
         <ul>
           <li> GitHub Link - <a
-              href="https://github.com/tejasps28/Research-UAVs-Safe-Landings">https://github.com/tejasps28/Research-UAVs-Safe-Landings</a>
+              href="  https://github.com/tejasps28/Projects/tree/main/TurtleSim_Projects/turtle_shapes">https://github.com/tejasps28/TurtleSim_Projects</a>
         </ul>
         </p>
+        <div>
+          <img src="assets/images/gifs/turtle_shapes.gif" alt="Description of the GIF">
+      </div>
   </main>
 
   <!-- Optional footer content -->
