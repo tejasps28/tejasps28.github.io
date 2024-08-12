@@ -75,12 +75,12 @@ if ! test -z "$(git ls-files --exclude-standard --others)"; then
 fi
 
 # Switch to source branch (creates it if necessary from the current branch)
-if [ `git branch | grep $SRC_BRANCH | tr ' ' '\n' | tail -1` ]
-then
-    git checkout $SRC_BRANCH
-else
-    git checkout -b $SRC_BRANCH
-fi
+# if [ `git branch | grep $SRC_BRANCH | tr ' ' '\n' | tail -1` ]
+# then
+#     git checkout $SRC_BRANCH
+# else
+#     git checkout -b $SRC_BRANCH
+# fi
 
 # Checkout DEPLOY_BRANCH branch
 if [ `git branch | grep $DEPLOY_BRANCH` ]
