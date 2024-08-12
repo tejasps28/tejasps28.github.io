@@ -19,4 +19,4 @@ description: Code snippets I have created to ease my developer life.
 {{ site.data.repositories.github_gists.list }}
 {% endif %}
 
-<script src="https://gist.github.com/TheProjectsGuy/83dcb9ea06cf014822dfe5911dc1143b.js"></script>
+<script src="https://gist.github.com/tejasps28/83dcb9ea06cf014822dfe5911dc1143b.js"></script>

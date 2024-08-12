@@ -2,7 +2,7 @@
   type: map
   contents:
     - name: Full Name
-      value: Avneesh Mishra
+      value: Tejas Salian
     - name: Date of Birth
       value: 27th May 1999
     - name: Languages
@@ -18,7 +18,7 @@
         - At <a href="https://robotics.iiit.ac.in/">Robotics Research Center</a>, under <a href="https://robotics.iiit.ac.in/faculty_mkrishna/">Prof. Madhava Krishna</a>
         - SLAM (Simultaneous Localization and Mapping) using cameras.
         - Deep Learning, local feature matching, global image and sequence descriptors, structure from motion, bundle adjustment, etc. <a href="https://wakanda-forever.notion.site/RRC-Research-Threads-IIITH-d6eec11abbf84d9b94c629d65eb6cb38">Notion</a>
-        - RRC Summer School 2022 - Multi-View Geometry (4/4) - <a href="https://github.com/TheProjectsGuy/RRC22-Summer-School-MVG4">GitHub</a>, <a href="https://laksh-nanwani.notion.site/laksh-nanwani/Robotics-Research-Center-Summer-School-2022-8ee9a9ff7fc445619c2b650a1557e946">Notion</a>, <a href="https://youtube.com/playlist?list=PLoy_JcjmT4hxKOPdmwj_KjN6lO84J253o">YouTube Playlist</a> (<a href="https://www.youtube.com/watch?v=-8B6lbdl3dk&list=PLoy_JcjmT4hxKOPdmwj_KjN6lO84J253o&index=14">my lecture</a>)
+        - RRC Summer School 2022 - Multi-View Geometry (4/4) - <a href="https://github.com/tejasps28/RRC22-Summer-School-MVG4">GitHub</a>, <a href="https://laksh-nanwani.notion.site/laksh-nanwani/Robotics-Research-Center-Summer-School-2022-8ee9a9ff7fc445619c2b650a1557e946">Notion</a>, <a href="https://youtube.com/playlist?list=PLoy_JcjmT4hxKOPdmwj_KjN6lO84J253o">YouTube Playlist</a> (<a href="https://www.youtube.com/watch?v=-8B6lbdl3dk&list=PLoy_JcjmT4hxKOPdmwj_KjN6lO84J253o&index=14">my lecture</a>)
         - Student SysAdmin (from May 2022 to Feb 2023)
 
     - title: B.Tech. in Mechatronics Engineering
@@ -86,10 +86,10 @@
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/TheProjectsGuy/FeatMF">FeatMF</a>
+    - title: <a href="https://github.com/tejasps28/FeatMF">FeatMF</a>
       year: 2022 - Present
       description: <b>In development</b>. A framework which combines local and global image feature methods and related downstream tasks into one package. Currently on-hold due to other obligations.
-    - title: <a href="https://github.com/TheProjectsGuy/MLHub">MLHub</a>
+    - title: <a href="https://github.com/tejasps28/MLHub">MLHub</a>
       year: 2022 - Present
       description: <b>In development</b>. A central repository of various models (training, good documentation, and inference). Currently on-hold due to other obligations.
 
