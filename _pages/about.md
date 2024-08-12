@@ -6,9 +6,9 @@ subtitle: Robotics, Deep Learning, and Computer Science
 
 profile:
   align: right
-  image: prof_pic.jpeg
+  image: prof_pic.png
   image_circular: false # crops the image to make it circular
-  email: 123avneesh@gmail.com
+  email: tejasps28@gmail.com
   address: >
     <p>Bannerghatta Road</p>
     <p>Bangalore South</p>

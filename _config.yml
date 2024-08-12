@@ -3,9 +3,9 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Avneesh
+first_name: Tejas
 middle_name:
-last_name: Mishra
+last_name: Salian
 email: tejasps28+ghio AT gmail DOT com
 # email_work: avneesh.mishra+ghio AT research.iiit.ac.in  # Work email (if you want to use it)
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -73,8 +73,8 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: tejasps28 # your GitHub user name
 gitlab_username: tejasps28 # your GitLab user name
-twitter_username: 123avneesh # your Twitter handle
-mastodon_username: sigmoid.social/@123avneesh # your mastodon instance+username in the format instance.tld/@username
+twitter_username: tejasps28 # your Twitter handle
+mastodon_username:  # your mastodon instance+username in the format instance.tld/@username
 bitbucket_username: tejasps28  # your BitBucket user name
 linkedin_username: tejas-salian # your LinkedIn user name
 telegram_username:  # your Telegram user name
