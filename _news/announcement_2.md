@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2024-07-13
+date: 2021-06-30
 inline: true
 ---
 
-Graduated from IIIT-H :smile:
+Graduated from MIT, Manipal :smile: 🎓
+
