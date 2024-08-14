@@ -104,7 +104,7 @@ instagram_id: # your instagram id
 facebook_id: # your facebook id
 goodreads_id: # Your goodreads URL ID
 discord_id:  # your discord id (18-digit unique numerical identifier)
-clustrmaps_id:  # the ID to your clustrmaps widget (after `?d=`)
+clustrmaps_id:  4M_ZiH_B-OfEpHEzkKr_DTg3rXw2lV284ssLFDkCO9o # the ID to your clustrmaps widget (after `?d=`)
 
 contact_note: >
   If work related, use the work email (first option). I'm also available on Telegram, Twitter or the disqus comments in blog.

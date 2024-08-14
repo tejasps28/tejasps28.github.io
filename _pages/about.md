@@ -20,9 +20,9 @@ social: true  # includes social icons at the bottom of the page
 clustrmaps: true  # includes clustrmaps widget at the bottom of the page
 ---
 
-I'm an engineer and a researcher in the field of **robotics**. I am currently working as a Research Assistant at the Robotics Research Centre, IIIT Hyderabad under the guidance of [Prof. Madhava Krishna](https://robotics.iiit.ac.in/faculty_mkrishna/).
+I'm an engineer and a researcher in the field of **Robotics**. I am currently working as a Research Assistant at the Robotics Research Centre, IIIT Hyderabad under the guidance of [Prof. Madhava Krishna](https://robotics.iiit.ac.in/faculty_mkrishna/).
 
-Prior to this, I was working as a Research Engineer with over 2 years of professional experience, currently working at [Novus Hi-tech Robotic Systemz Ltd](https://novushitech.com/). My main areas of interest are Robotics and Artificial Intelligence(AI) with sub-domains in Motion Planning, and Computer Vision but I'm highly inquisitive to explore different fields as I move forward.
+Prior to this, I was working as a Research Engineer with over 2 years of professional experience, currently working at [Novus Hi-tech Robotic Systemz Ltd](https://novushitech.com/). My main areas of interest are Robotics and Artificial Intelligence(AI) with sub-domains in ***Motion Planning, and Computer Vision, use of Vision for Navigation*** but I'm highly inquisitive to explore different fields as I move forward.
     
 I have honed my skills in a variety of domains within Robotics, with notable projects that include creating Digital Twins in Unity 3D, motion planning for cobot applications, leveraging computer vision for obstacle detection, and pioneering in multifloor navigation and sensor fusion for enhanced odometry.
 
