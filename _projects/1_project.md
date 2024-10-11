@@ -1,13 +1,13 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Gantry Robot Arm for Car-Painting application in ROS2
+description: A simulation of a gantry robot-arm for car painting using ROS2,Gazebo and Moveit2.
+img: assets/img/gantry_project/gantry_arm_full.png
 importance: 1
-category: work
+category: Simulation
 ---
 
-Every project has a beautiful feature showcase page.
+<!-- Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
 
@@ -18,63 +18,31 @@ To give your project a background in the portfolio page, just add the img tag to
     title: project
     description: a project with a background image
     img: /assets/img/12.jpg
-    ---
+    --- -->
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+
+<div class="row justify-content-center">
+    <div class="col-sm-12 col-md-6 mt-3 mt-md-0 text-center">
+        {% include figure.html path="assets/img/gantry_project/gantry_gif.gif" title="example image" class="img-fluid rounded z-depth-1" style="max-width: 100%; width: 500px;" %}
     </div>
 </div>
+
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Car Painting in action.!
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+This project was done in collaboration with <a href="https://www.linkedin.com/in/lentinjoseph/">Mr. Lentin Joseph.</a>   
+In this project we have explored how to automate the car painting process using a gantry design and robot arm manipulator.
+
+Firstly, we set up a multi-camera system to surround the car , to cover maxiumum angles of the car.
+The purpose of this is, to get a 3D reconstructed version of the car, in only pointcloud format.
+
+We use this pointclouds to then create an octomap, for the arm to avoid collision with the car,
+while painting. Using the images from the camera, we segment out the parts that are to be painted.
+Then using openCV and PCL libraries, we compute the pose from points that are overlapping on the segmented
+image, and it's corresponding depth from the pointcloud.
+Using Moveit2 ROS API, we use these poses to compute Cartesian motion plan.
+
+You can find the complete video <a href="https://drive.google.com/file/d/1jfwVAd0tfL2s9PvaNSDgQvgnOZTc--cP/view?usp=sharing">here.</a>
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}

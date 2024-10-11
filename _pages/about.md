@@ -30,7 +30,7 @@ Holding a Bachelor of Technology from [Manipal Institute of Technology](https://
 
 I am driven by the challenge of solving complex problems and am committed to reducing human intervention in hazardous tasks through the development of innovative robotics solutions. My approach is characterized by a collaborative mindset and an openness to new ideas, which, combined with my technical skills and a keen interest in the latest developments in Robotics and Computer Vision, positions me to contribute significantly to research and development efforts aimed at building robust solutions that benefit mankind.
 
-My unique blend of skills and passion for pushing the boundaries of what's possible in Robotics distinguish me in this rapidly evolving field. To showcase this, view my project [Gantry Robotic Arm for Car Painting application](https://tejasps28.github.io/gantryROS2.html) under the mentorship of [Mr. Lentin Joseph](https://www.linkedin.com/in/lentinjoseph/) 
+My unique blend of skills and passion for pushing the boundaries of what's possible in Robotics distinguish me in this rapidly evolving field. To showcase this, view my project [Gantry Robotic Arm for Car Painting application](https://tejasps28.github.io/projects) under the mentorship of [Mr. Lentin Joseph](https://www.linkedin.com/in/lentinjoseph/) 
 
 My hobbies include reading, playing sports and listening to music. I am also interested in travelling and am bit of a foodie. :yum:
 
