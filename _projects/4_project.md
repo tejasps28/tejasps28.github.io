@@ -23,6 +23,9 @@ The objective of the project was to control a drone, incorporating obstacle avoi
 
 The simulation was done using ROS and Gazebo, with image processing techniques applied to detect QR codes and identify landing spots. I contributed to developing the logic for obstacle avoidance and path planning, while PID control was used to fine-tune the drone's movements.
 
-The project successfully placed us in the Top 20 out of 250 teams after completing all the tasks.
+The project successfully placed us in the Top 20 out of 250 teams after completing all the tasks. <a href="https://drive.google.com/file/d/155t5WeAgi_ifMpTaBrr9l9R-mq6nKMdY/view?usp=drive_link"> Certificate here.</a>
 
 You can find the complete video <a href="https://www.youtube.com/watch?v=ilkHnnRDjuo">here.</a>
+
+You can find the code and more details of the project <a href="https://github.com/tejasps28/VITARANA-DRONE_IITB/tree/main">here.</a>
+
