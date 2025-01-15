@@ -2,7 +2,7 @@
 layout: page
 title: Unity Simulation as a test bench for Robotics.
 description: A unity based simulation for 2D-SLAM algorithms.
-img: assets/img/unity_2d_project/Unity_2D.png
+img: assets/img/unity_2d_project/unity2D.gif
 importance: 3
 category: Simulation
 ---

@@ -2,7 +2,7 @@
 layout: page
 title: Turtle Shapes
 description: A turtlesim project that draws shapes.
-img: assets/img/turtlesim_shapes_project/turtlesim_shapes.png
+img: assets/img/turtlesim_shapes_project/turtle_shapes.gif
 importance: 2
 category: Learnings
 ---

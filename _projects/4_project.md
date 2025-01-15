@@ -2,7 +2,7 @@
 layout: page
 title: Vitarana Drone- eYRC 
 description: A delivery drone; part of a MOOC Robotics competition held by IIT Bombay.
-img: assets/img/vitarana_drone_project/eyrc_vd_thumbnail.png
+img: assets/img/vitarana_drone_project/eyrc_VD.gif
 importance: 1
 category: Learnings
 ---

@@ -2,7 +2,7 @@
 layout: page
 title: Pick and Place Robot arm for Stacking Application.
 description: A simulation of a pick-and-place robot arm using ROS2 and Moveit2.
-img: assets/img/pnp_stacking_robot_project/pnp_setup_conv_pallet.png
+img: assets/img/pnp_stacking_robot_project/4x4_pnp_cropped.gif
 importance: 2
 category: Simulation
 ---

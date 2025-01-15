@@ -2,7 +2,7 @@
 layout: page
 title: Gantry Robot Arm for Car-Painting application in ROS2
 description: A simulation of a gantry robot-arm for car painting using ROS2,Gazebo and Moveit2.
-img: assets/img/gantry_project/gantry_arm_full.png
+img: assets/img/gantry_project/gantry_gif.gif
 importance: 1
 category: Simulation
 ---
