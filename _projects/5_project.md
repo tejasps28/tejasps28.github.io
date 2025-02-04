@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Turtle Shapes
+title: Getting Started with ROS
 description: A turtlesim project that draws shapes.
 img: assets/img/turtlesim_shapes_project/turtle_shapes.gif
 importance: 2
