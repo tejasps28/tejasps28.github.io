@@ -78,7 +78,7 @@ mastodon_username:  # your mastodon instance+username in the format instance.tld
 bitbucket_username: tejasps28  # your BitBucket user name
 linkedin_username: tejasps28 # your LinkedIn user name
 telegram_username:  # your Telegram user name
-scholar_userid:  # your Google Scholar ID
+scholar_userid:  q5v4H48AAAAJ&hl # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 arxiv_pub_id:  # Your arXiv author URL (last part)
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)

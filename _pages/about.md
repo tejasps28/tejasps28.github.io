@@ -15,7 +15,7 @@ profile:
     <p>Mumbai, Maharashtra, India - 400090</p>
 
 news: true  # includes a list of news items
-selected_papers: false #true # includes a list of papers marked as "selected={true}"
+selected_papers: true #true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 clustrmaps: true  # includes clustrmaps widget at the bottom of the page
 ---
