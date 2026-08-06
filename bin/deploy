@@ -97,6 +97,9 @@ BUILD_DIR=$(mktemp -d)
 cp -a _site/. "$BUILD_DIR/"
 
 # Publish the generated site on a clean deployment branch.
+if git show-ref --verify --quiet "refs/heads/$DEPLOY_BRANCH"; then
+  git branch -D "$DEPLOY_BRANCH"
+fi
 git checkout --orphan "$DEPLOY_BRANCH"
 find . -maxdepth 1 ! -name '.git' ! -name 'CNAME' -exec rm -rf {} +
 cp -a "$BUILD_DIR/." .
@@ -111,7 +114,7 @@ git commit --allow-empty -m "$(git log -1 --pretty=%B) [ci skip]"
 [[ ${NO_PUSH} ]] || git push -f -q origin "$DEPLOY_BRANCH"
 
 # Move back to SRC_BRANCH
-git checkout $SRC_BRANCH
+git checkout "$SRC_BRANCH"
 
 echo "Deployed successfully!"
 
