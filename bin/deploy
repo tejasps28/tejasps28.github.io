@@ -85,23 +85,22 @@ fi
 #     git checkout -b $SRC_BRANCH
 # fi
 
-# Checkout DEPLOY_BRANCH branch
-if [ `git branch | grep $DEPLOY_BRANCH` ]
-then
-  git branch -D $DEPLOY_BRANCH
-fi
-# git checkout -b $DEPLOY_BRANCH
-
 # Export JEKYLL_ENV=production
 export JEKYLL_ENV=production
 
 # Build site
 bundle exec jekyll build
 
-# Delete and move files
-find . -maxdepth 1 ! -name '_site' ! -name '.git' ! -name 'CNAME' ! -name '.gitignore' -exec rm -rf {} \;
-mv _site/* .
-rm -R _site/
+# Preserve the generated site while switching branches. The source branch
+# must remain editable after deployment.
+BUILD_DIR=$(mktemp -d)
+cp -a _site/. "$BUILD_DIR/"
+
+# Publish the generated site on a clean deployment branch.
+git checkout --orphan "$DEPLOY_BRANCH"
+find . -maxdepth 1 ! -name '.git' ! -name 'CNAME' -exec rm -rf {} +
+cp -a "$BUILD_DIR/." .
+rm -rf "$BUILD_DIR"
 
 # Create `.nojekyll` file (bypass GitHub Pages Jekyll processing)
 touch .nojekyll
@@ -109,7 +108,7 @@ touch .nojekyll
 # Push to DEPLOY_BRANCH
 git add -fA
 git commit --allow-empty -m "$(git log -1 --pretty=%B) [ci skip]"
-[[ ${NO_PUSH} ]] || git push -f -q origin $DEPLOY_BRANCH
+[[ ${NO_PUSH} ]] || git push -f -q origin "$DEPLOY_BRANCH"
 
 # Move back to SRC_BRANCH
 git checkout $SRC_BRANCH
