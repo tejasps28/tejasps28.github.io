@@ -6,7 +6,7 @@ subtitle: Robotics and Computer Vision
 
 profile:
   align: right
-  image: prof_pic.png
+  image: profile_pic_2026.png
   image_circular: true #false # crops the image to make it circular
   email: tejasps28@gmail.com
   address: >
