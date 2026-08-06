@@ -10,6 +10,10 @@ on:
       - master
       - main
 
+# The deploy script publishes the generated site to gh-pages.
+permissions:
+  contents: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
