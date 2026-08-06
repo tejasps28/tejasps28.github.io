@@ -291,7 +291,7 @@ external_links:
 # -----------------------------------------------------------------------------
 
 imagemagick:
-  enabled: true # enables responsive images for your site (recomended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: false # disabled because GitHub Pages does not generate responsive variants reliably
   widths:
     - 480
     - 800
